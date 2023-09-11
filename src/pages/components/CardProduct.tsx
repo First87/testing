@@ -6,7 +6,7 @@ const products = [
     id: 1,
     name: 'Basic Tee',
     href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageSrc: "https://drive.google.com/uc?export=download&id=1Z68JHIY1xJf7WFxoSX3eeU1SAOP06Ohz",
     imageAlt: "Front of men's Basic Tee in black.",
     price: '$35',
     color: 'Black',
