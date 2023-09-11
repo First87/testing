@@ -7,16 +7,16 @@ export default function Example() {
           
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
-              เกี่ยวกับเรา
+              เกี่ยวกับเราจริงๆนะ
             </h2>
             <div className="line"></div>
 
             <p className="mt-6 text-lg leading-8 text-black">
-              เสริมศิริ อลูมินั่ม & สแตนเลส ยินดีต้อนรับ ลูกค้าทุกท่านค่ะ
+              ***********เสริมศิริ อลูมินั่ม & สแตนเลส ยินดีต้อนรับ ลูกค้าทุกท่านค่ะ
               เราเป็นศูนย์รวมอลูมิเนียมเส้น และสแตนเลส
               อุปกรณ์งานติดตั้งประตู-หน้าต่างกรอบอลูมิเนียมที่เกี่ยวข้องทุกชนิดค่ะ
               จัดส่งได้ทั่วประเทศ สามารถทักมาก่อนได้ line : 086-569-2289 หรือ
-              โทร 02-817-0441
+              โทร 02-817-0441****************
             </p>
             
           </div>
