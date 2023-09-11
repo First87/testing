@@ -9,16 +9,7 @@ const Footer =(props:Props) => {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-2 md:mb-0">
-                <Link href="/" className="flex items-center">
-                    <Image
-                    src="/nav.png"
-                    height={60}
-                    width={60}
-                    alt='logo'
-                    />
-                   
-                    
-                </Link>
+                
             </div>
             <div className="sm: grid pl-10 grid-cols-1 gap-8 md:gap-10 md:grid-cols-3 ft-grid">
                 <div>

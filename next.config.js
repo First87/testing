@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['drive.google.com'], // เพิ่มโดเมนของ Google Drive ที่นี่
+    domains: ['drive.google.com', 'tailwindui.com'], // ใส่โดเมนที่คุณต้องการใช้ในรูปภาพทั้งหมดในนี้
   },
 }
 

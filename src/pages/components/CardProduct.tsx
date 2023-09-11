@@ -1,99 +1,163 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import React from 'react'
+import Image from 'next/image';
+import Link from 'next/link';
+const products = [
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+   {
+    id: 1,
+    name: 'Basic Tee',
+    href: '#',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  // More products...
+]
 
-const CardProducts = () => {
-  const data = [
-    {
-      link: "add link here",
-      image:
-        "",
-      comment: `you can add text with html tag <b>like this   </b>`,
-    },
-    {
-      link: "add link here",
-      image:
-        "",
-      comment: `you can add text with html tag <b>like this   </b>`,
-    },
-    {
-      link: "add link here",
-      image:
-        "",
-      comment: `you can add text with html tag <b>like this   </b>`,
-    },
-    {
-      link: "add link here",
-      image:
-        "",
-      comment: `you can add text with html tag <b>like this   </b>`,
-    },
-    {
-      link: "add link here",
-      image:
-        "",
-      comment: `you can add text with html tag <b>like this   </b>`,
-    },
-    {
-      link: "add link here",
-      image:
-        "",
-      comment: `you can add text with html tag <b>like this   </b>`,
-    },
-  ];
+export default function Example() {
   return (
-    <>
-      <div className="">
-        <div className="p-6 container mx-auto">
-          <div className="py-2">
-            <h1 className="text-center text-4xl">สินค้าของเรา</h1>
-          </div>
-          <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12">
-            {data.map((x) => {
-              return (
-                <>
-                  <article
-                    key={x.comment}
-                    className="p-6 mb-6  transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer"
-                  >
-                    <Link
-                      href={x.link}
-                      className="absolute opacity-0 top-0 right-0 left-0 bottom-0"
-                    />
-                    <div className="relative mb-4 rounded-2xl">
-                      <Image
-                        width={200}
-                        height={200}
-                        className="max-h-80 rounded-2xl w-full object-cover transition-transform duration-300 transform group-hover:scale-105"
-                        src={x.image}
-                        alt=""
-                      />
-                      <Link
-                        className="flex justify-center items-center bg-purple-500 bg-opacity-80  absolute top-0 left-0 w-full h-full text-white rounded-2xl opacity-0 transition-all duration-300 transform group-hover:scale-105 text-xl group-hover:opacity-100"
-                        href={x.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        สินค้าของเรา
-                      </Link>
-                    </div>
-                    <h3 className="font-medium text-xl leading-8">
-                      <Link
-                        href="https://animeflyx.vercel.app/"
-                        className="block relative group-hover:text-purple-500 transition-colors duration-200"
-                      >
-                        <span dangerouslySetInnerHTML={{ __html: x.comment }} />
-                      </Link>
-                    </h3>
-                  </article>
-                </>
-              );
-            })}
-          </div>
+    <div className="bg-white">
+      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        <h2 className="text-2xl text-center font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+
+        <div className="mt-6 md:grid md:gap-6 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-3 mb-12 ">
+                           
+                           
+          {products.map((product) => (
+            <div key={product.id} className="group relative">
+              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                <Image
+                  src={product.imageSrc}
+                  alt={product.imageAlt}
+                  width={200}
+                  height={400}
+                  className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                />
+              </div>
+              <div className="mt-4 flex justify-between">
+                <div>
+                  <h3 className="text-sm text-gray-700">
+                    <a href={product.href}>
+                      <span aria-hidden="true" className="absolute inset-0" />
+                      {product.name}
+                    </a>
+                  </h3>
+                  <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                </div>
+                <p className="text-sm font-medium text-gray-900">{product.price}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    </>
-  );
-};
-
-export default CardProducts;
+    </div>
+  )
+}

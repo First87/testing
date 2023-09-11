@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import Link from 'next/link'; // Import the Link component from Next.js for client-side navigation.
 import { useState } from 'react'; // Import the useState hook from React for managing state.
 
@@ -10,11 +10,24 @@ export default function Navbar() {
   
       <nav className="w-full bg-gray-800 shadow"> {/* Create a navigation bar with background color and shadow */}
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8"> {/* Set the layout and spacing */}
+        <Image
+                    src="/nav.png"
+                    height={60}
+                    width={60}
+                    alt='logo'
+                    />
           <div>
+            
             <div className="flex items-center justify-between py-3 md:py-5 md:block"> {/* Create a flex container for the logo and menu items */}
+              
+              
               <Link href="#">
-                <h2 className="font-bold logo-text">บริษัท เสริมศิริ อลูมินั่ม & สแตนเลส จำกัด</h2>
+              
+              
+                    <h2 className="font-bold logo-text">บริษัท เสริมศิริ อลูมินั่ม & สแตนเลส จำกัด</h2>
               </Link>
+
+              
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -52,6 +65,7 @@ export default function Navbar() {
                 </button>
               </div>
             </div>
+            
           </div>
           <div>
             <div
