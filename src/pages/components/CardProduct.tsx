@@ -134,12 +134,7 @@ export default function Example() {
           {products.map((product) => (
             <div key={product.id} className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-              <div style={{
-      backgroundColor: 'lightgray',
-      boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.3)',
-      padding: '10px',
-      borderRadius: '5px',
-    }}>
+             
               <Image
                   src={product.imageSrc}
                   alt={product.imageAlt}
@@ -162,7 +157,7 @@ export default function Example() {
                 <p className="text-sm font-medium text-gray-900">{product.price}</p>
               </div>
             </div>
-               </div>
+               
           ))}
         </div>
       </div>
