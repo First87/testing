@@ -134,7 +134,12 @@ export default function Example() {
           {products.map((product) => (
             <div key={product.id} className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-             
+              <div style={{
+      backgroundColor: 'lightgray',
+      boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.3) inset',
+      padding: '10px',
+      borderRadius: '5px',
+    }}>
               <Image
                   src={product.imageSrc}
                   alt={product.imageAlt}
@@ -142,7 +147,7 @@ export default function Example() {
                   height={400}
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                 />
-             
+             </div>
               </div>
               <div className="mt-4 flex justify-between">
                 <div>
