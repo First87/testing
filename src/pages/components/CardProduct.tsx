@@ -157,7 +157,7 @@ export default function Example() {
                 <p className="text-sm font-medium text-gray-900">{product.price}</p>
               </div>
             </div>
-      </div>
+    
                
           ))}
         </div>
