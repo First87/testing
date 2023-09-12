@@ -1,6 +1,5 @@
-import React from 'react'
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react"
+import Image from "next/image"
 const products = [
   {
     id: 1,
@@ -126,39 +125,28 @@ export default function Example() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl text-center font-bold tracking-tight text-gray-900">สินค้าของเรา55555</h2>
-        
-        <div  styles={{ boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)' }}>
-           <div className="mt-6 md:grid md:gap-6 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-4 mb-12 ">
-                           
-                           
-          {products.map((product) => (
-            <div key={product.id} className="group relative">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <Image
-                  src={product.imageSrc}
-                  alt={product.imageAlt}
-                  width={200}
-                  height={400}
-                  className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                />
-              </div>
-              <div className="mt-4 flex justify-between">
-                <div>
-                  <h3 className="text-sm text-gray-700">
-                    <a href={product.href}>
-                      <span aria-hidden="true" className="absolute inset-0" />
-                      {product.name}
-                    </a>
-                  </h3>
-                  <p className="mt-1 text-sm text-gray-500">{product.color}</p>
-                </div>
-                <p className="text-sm font-medium text-gray-900">{product.price}</p>
-              </div>
-            </div>
-        </div>
-       
-          ))}
+        <h2 className="sr-only">Products</h2>
+
+        <div className="mt-6 md:grid md:gap-6 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-4 mb-12 ">
+        {products.map((product) => (
+  <a 
+  key={product.id} href={product.href} className="group">
+    <div  style={{ boxShadow: '0px 1.2px 3px 0.9px rgba(0, 0, 0, 0.27)',borderRadius:"10px" }}
+    className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg  xl:aspect-h-8 xl:aspect-w-7">
+      <div
+        className="w-full h-full bg-center bg-no-repeat bg-contain"
+        style={{
+          backgroundImage: `url(${product.imageSrc})`,
+          width: '300px', // ปรับขนาดกว้างของรูปภาพตามที่คุณต้องการ
+          height: '300px', // ปรับขนาดสูงของรูปภาพตามที่คุณต้องการ
+        }}
+      ></div>
+    </div>
+    <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
+    <p className="mt-1 text-lg font-medium text-gray-900">{product.price}</p>
+  </a>
+))}
+
         </div>
       </div>
     </div>
