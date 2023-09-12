@@ -59,7 +59,7 @@ export default function ProductDetails() {
             
 
             <div className="mt-10">
-              <h2 className="text-lg  text-gray-1000 ">รายละเอีดสินค้า</h2>
+              <h2 className="text-lg  text-gray-2000 ">รายละเอีดสินค้า</h2>
 
               <div className="mt-4 space-y-6">
                 <p className="text-lg text-gray-800">{product.detail}</p>
