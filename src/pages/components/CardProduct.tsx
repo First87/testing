@@ -128,7 +128,7 @@ export default function Example() {
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl text-center font-bold tracking-tight text-gray-900">สินค้าของเรา</h2>
 
-        <div className="mt-6 md:grid md:gap-6 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-4 mb-12 ">
+        <div  styles={{ boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)' }} className="mt-6 md:grid md:gap-6 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-4 mb-12 ">
                            
                            
           {products.map((product) => (
