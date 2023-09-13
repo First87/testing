@@ -1,5 +1,5 @@
 
-import Footer from "../component/Footer";
+import Footer from "./component/Footer";
 import React, { ReactNode } from 'react';
 import Header from './components/Header';
 interface LayoutProps {
