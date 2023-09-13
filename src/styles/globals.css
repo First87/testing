@@ -26,6 +26,13 @@ body {
 .text-white :hover{
   color: #FF9D34;
 }
+.back-products{
+  color:  #FF9D34;
+  padding: 1rem;
+}
+.back-products:hover{
+  color:  #ff9d34c4;
+}
 
 
 .swiper {
