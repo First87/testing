@@ -69,7 +69,6 @@ export default function products() {
                     {callout.name}
                   </a>
                 </h3>
-                <p className="text-base font-semibold text-gray-900">{callout.description}</p>
               </div>
             ))}
           </div>
