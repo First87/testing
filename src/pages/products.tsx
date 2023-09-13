@@ -7,42 +7,37 @@ import Footer from "./components/Footer"
 const callouts = [
     {
       name: 'อลูมิเนียม',
-      description: 'Work from home accessories',
       imageSrc: 'https://drive.google.com/uc?export=download&id=1MDWAhkubEf6XtzAAJRRM68UZyeclX30Y',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: '/aluminum/products',
     },
     {
       name: 'สแตนเลส',
-      description: 'Journals and note-taking',
       imageSrc: 'https://drive.google.com/uc?export=download&id=1nz9VWfqXSR1L9xMCfb9zJaa2JB3rEGrK',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: '/stainless/products',
     },
     {
       name: 'กระจก',
-      description: 'Daily commute essentials',
+     
       imageSrc: 'https://drive.google.com/uc?export=download&id=1nyd6R2hU6GGtVXDGfoh5BNcdlD1Se2Sn',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '/mirror/products',
     },
     {
         name: 'อุปกรณ์ตกแต่งสแตนเลส',
-        description: 'Daily commute essentials',
         imageSrc: 'https://drive.google.com/uc?export=download&id=1--OZSnB4rwp2k-H1UraMbQ_gV99tsl7b',
         imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
         href: '/accessoriesstainless/products',
       },
       {
         name: 'งานฝ้าและเครื่องมือช่าง',
-        description: 'Daily commute essentials',
         imageSrc: 'https://drive.google.com/uc?export=download&id=1dvObmOuRkHZ3zXoDfDGkuN_8x6bCmVlK',
         imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
         href: '/ceilingtools/products',
       },
       {
         name: 'แผ่นหลังคา',
-        description: 'Daily commute essentials',
         imageSrc: 'https://drive.google.com/uc?export=download&id=1ztjmZtASppD8-AMbj6cWiMAYaxOw3UiW',
         imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
         href: '/roof/products',
