@@ -6,7 +6,7 @@ export default function Example() {
         <div className="relative isolate overflow-hidden  px-6 pt-16  sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:space-x-20">
           
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
+            <h2 className="text-2xl font-bold tracking-tight text-black sm:text-4xl">
               นึกถึงอลูมิเนียมและสแตนเลส นึกถึงเสริมศิริ 
             </h2>
             <div className="line"></div>
