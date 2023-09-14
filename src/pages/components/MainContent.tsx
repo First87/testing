@@ -7,21 +7,13 @@ export default function Example() {
           
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 className="text-2xl font-bold tracking-tight text-black sm:text-4xl">
-<<<<<<< HEAD
             เสริมศิริ อลูมินั่ม & สแตนเลส
-=======
-             เสริมศิริ อลูมินั่ม & สแตนเลส
->>>>>>> cb89e5d120a8b9d574eb69e30d24e2726d2b2907
             </h2>
             <div className="line"
             style={{margin:"2rem auto"}}></div>
 
             <p className="mt-6 text-lg leading-8 text-black">
-<<<<<<< HEAD
-               ยินดีต้อนรับ ลูกค้าทุกท่านค่ะ
-=======
-              ยินดีต้อนรับ ลูกค้าทุกท่านค่ะ
->>>>>>> cb89e5d120a8b9d574eb69e30d24e2726d2b2907
+             ยินดีต้อนรับ ลูกค้าทุกท่านค่ะ
               เราเป็นศูนย์รวมอลูมิเนียมเส้น และสแตนเลส
               อุปกรณ์งานติดตั้งประตู-หน้าต่างกรอบอลูมิเนียมที่เกี่ยวข้องทุกชนิดค่ะ
               จัดส่งได้ทั่วประเทศ สามารถทักมาก่อนได้ line : 086-569-2289 หรือ
