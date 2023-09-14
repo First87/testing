@@ -7,7 +7,7 @@ export default function Example() {
           
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
-              เกี่ยวกับเรา555555555
+              นึกถึงอลูมิเนียมและสแตนเลส นึกถึงเสริมศิริ 
             </h2>
             <div className="line"></div>
 
