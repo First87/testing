@@ -9,19 +9,8 @@ import 'swiper/css/navigation';
 // import required modules
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-const items = [
-    {
-      src: "/IMG_E4390.jpg",
-    },
-    {
-      src: "/u1.jpg",
-      
-    },
 
-
-  ];
-
-const Banner = () => {
+const MainSlide = () => {
   return (
   
     <Swiper
@@ -112,4 +101,4 @@ const Banner = () => {
     
   );
 };
-export default Banner;
+export default MainSlide;
