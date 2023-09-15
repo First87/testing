@@ -1,4 +1,4 @@
-import MainSlide from './MainSlide'
+
 export default function Example() {
   return (
     <div className="bg-white">
@@ -32,7 +32,7 @@ export default function Example() {
           </div>
           
         </div>
-        <MainSlide />
+        
       </div>
     </div>
   );

@@ -1,11 +1,11 @@
 import React from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { AiOutlineMail, AiOutlineGlobal } from "react-icons/ai";
+import { FaLine } from "react-icons/fa";
 import Image from "next/image";
 const TopHeader = () => {
   const items = [
     { icon: <BsFillTelephoneFill />, description: "086-569-2289" },
-    { icon: <AiOutlineMail />, description: "example@gmail.com" },
+    { icon: <FaLine />, description: "Sermsirisl" },
    
   ];
   
