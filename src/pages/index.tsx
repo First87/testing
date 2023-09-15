@@ -15,6 +15,8 @@ export default function Home({}: Props) {
       <Banner />
       <MainContent />
       <MainSlide/>
+      <br /><br />
+      
       <Footer />
     </>
   );

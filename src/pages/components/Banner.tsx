@@ -21,7 +21,7 @@ const Banner: React.FC = () => {
       }}
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      className="mySwiper-banner"
     >
       <SwiperSlide>
         <Image
