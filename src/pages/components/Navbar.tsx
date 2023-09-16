@@ -75,7 +75,7 @@ export default function Navbar() {
             >
               {" "}
               {/* Create a menu that is hidden on larger screens */}
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="items-center  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 {" "}
                 {/* Create a list of navigation links */}
                 <li className="text-white">

@@ -29,7 +29,7 @@ export default function BlogContent() {
         </tr>
       </thead>
       <tbody>
-        <tr className="bg-white border-b dark:bg-white-800 dark:border-white-700">
+        <tr className="bg-white  border-b dark:bg-white-800 dark:border-white-700">
           <td className="px-6 py-4">
             1.16″
           </td>
