@@ -105,6 +105,8 @@ body {
 }
 
 
+
+
 @media screen and (max-width: 950px){
   .ft-grid{
     grid-template-columns: 1fr;
@@ -132,6 +134,9 @@ body {
     align-items: center;
     gap: 1rem;
     
+  }
+  .tb-blog{
+    width: 100%;
   }
 }
 

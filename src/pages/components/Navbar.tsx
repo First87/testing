@@ -85,7 +85,7 @@ export default function Navbar() {
                   <Link href="/products">สินค้าของเรา</Link>
                 </li>
                 <li className="text-white">
-                  <Link href="/about">สาระน่ารู้</Link>
+                  <Link href="/blog">สาระน่ารู้</Link>
                 </li>
                 <li className="text-white">
                   <Link href="/contact">ติดต่อเรา</Link>
