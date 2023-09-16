@@ -29,7 +29,7 @@ const MainSlide = () => {
   return (
     <>
       <h2 className="text-2xl text-center py-4 font-bold tracking-tight text-black sm:text-2xl">
-        สินค้าแนำนำ
+        สินค้าแนะนำ
       </h2>
       <Swiper
         className="mySwiper"
