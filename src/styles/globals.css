@@ -139,3 +139,10 @@ body {
     width: 100%;
   }
 }
+
+
+@media screen and (max-width: 1120px){
+  .tb-blog{
+    width: 90%;
+  }
+}
