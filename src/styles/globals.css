@@ -14,7 +14,7 @@ body {
 }
 .logo-text{
   color: #FF9D34;
-  font-size: 2vmin;
+
 }
 
 .top-head{
@@ -69,6 +69,7 @@ body {
 }
 
 
+
 .grid {
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -107,7 +108,7 @@ body {
 
 
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 850px){
   .ft-grid{
     grid-template-columns: 1fr;
   }
@@ -138,11 +139,23 @@ body {
   .tb-blog{
     width: 100%;
   }
+
 }
 
 
-@media screen and (max-width: 1120px){
+
+@media only screen and  (max-width: 1180px){
   .tb-blog{
     width: 90%;
+  }
+ 
+}
+
+
+@media only screen and  (max-width: 400px){
+  
+  .logo-text{
+    color: #FF9D34;
+    font-size: 12px;
   }
 }

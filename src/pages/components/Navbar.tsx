@@ -22,9 +22,9 @@ export default function Navbar() {
                 {" "}
                 {/* Create a flex container for the logo and menu items */}
                 <Link href="#">
-                  <h2 className="font-bold logo-text">
+                  <p className=" logo-text">
                     บริษัท เสริมศิริ อลูมินั่ม & สแตนเลส จำกัด
-                  </h2>
+                  </p>
                 </Link>
               </div>
               </div>
