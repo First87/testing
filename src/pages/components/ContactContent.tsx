@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLine } from "react-icons/fa";
 import { ImFacebook2 } from "react-icons/im";
-const Contact = () => {
+const ContactContent = () => {
   return (
     <>
      
@@ -116,35 +116,5 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactContent;
 
-const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
-  return (
-    <>
-      <div className="mb-6">
-        <textarea
-          rows={row}
-          placeholder={placeholder}
-          name={name}
-          className="border-[f0f0f0] w-full resize-none rounded border py-3 px-[14px] text-base text-body-color outline-none focus:border-primary focus-visible:shadow-none"
-          defaultValue={defaultValue}
-        />
-      </div>
-    </>
-  );
-};
-
-const ContactInputBox = ({ type, placeholder, name }) => {
-  return (
-    <>
-      <div className="mb-6">
-        <input
-          type={type}
-          placeholder={placeholder}
-          name={name}
-          className="border-[f0f0f0] w-full rounded border py-3 px-[14px] text-base text-body-color outline-none focus:border-primary focus-visible:shadow-none"
-        />
-      </div>
-    </>
-  );
-};
