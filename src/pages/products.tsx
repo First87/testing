@@ -14,14 +14,14 @@ const callouts = [
     },
     {
       name: 'สแตนเลส',
-      imageSrc: 'https://drive.google.com/uc?export=download&id=1nz9VWfqXSR1L9xMCfb9zJaa2JB3rEGrK',
+      imageSrc: 'https://drive.google.com/uc?export=download&id=1ckIUbGN_irp3LH5423Zm5qeXggArYZCT',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: '/stainless/products',
     },
     {
       name: 'กระจก',
      
-      imageSrc: 'https://drive.google.com/uc?export=download&id=1nyd6R2hU6GGtVXDGfoh5BNcdlD1Se2Sn',
+      imageSrc: 'https://drive.google.com/uc?export=download&id=1V7jwpoctuf3vHSODouHslLp03rg_WwKW',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '/mirror/products',
     },
@@ -39,7 +39,7 @@ const callouts = [
       },
       {
         name: 'แผ่นหลังคา',
-        imageSrc: 'https://drive.google.com/uc?export=download&id=1ztjmZtASppD8-AMbj6cWiMAYaxOw3UiW',
+        imageSrc: 'https://drive.google.com/uc?export=download&id=1APf67YYLdAstKc1e4IyUK6sDZiG8HKau',
         imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
         href: '/roof/products',
       },
