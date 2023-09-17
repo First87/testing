@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import Head from 'next/head';
 
 const callouts = [
     {
@@ -46,6 +47,14 @@ const callouts = [
 export default function products() {
   return (
     <>
+    <Head>
+    <title>สินค้าของเรา | เสริมศิริ อลูมินั่ม & สแตนเลส</title>
+    <link
+        rel = "icon"
+         href = "nav.png" 
+        type = "icon">
+    </link>
+    </Head>
     <Header />
     
     <div className="bg-gray-100">

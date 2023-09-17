@@ -6,6 +6,7 @@ import Link from "next/link";
 import { stainlessProducts } from "../components/productsData";
 import { useRouter } from "next/router";
 import Footer from "../components/Footer";
+import Head from "next/head";
 export default function ProductDetails() {
   const router = useRouter();
   const { id } = router.query;
@@ -17,6 +18,10 @@ export default function ProductDetails() {
 
   return (
     <>
+    <Head>
+        <title>รายละเอียด : {product.title} | เสริมศิริ อลูมินั่ม & สแตนเลส</title>
+        <link rel="icon" href="/nav.png" type="icon" />
+      </Head>
     <Header />
     <Link href="/stainless/products"
     className="text-xl text-center font-bold back-products  "
