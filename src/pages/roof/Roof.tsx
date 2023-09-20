@@ -23,10 +23,10 @@ export default function Example() {
           {roofProducts.map((product) => (
             <Link key={product.id} href={`/roof/${product.id}`}>
               
-              <div style={{ boxShadow: '0px 1.2px 3px 0.9px rgba(0, 0, 0, 0.27)', borderRadius: "10px" }}
-                className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg  xl:aspect-h-8 xl:aspect-w-7">
+              <div 
+                className=" card-po aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg  xl:aspect-h-8 xl:aspect-w-7">
                 <div
-                  className="w-full h-full bg-center bg-no-repeat bg-contain"
+                  className="w-full h-full bg-center bg-no-repeat bg-contain img-po"
                   style={{
                     backgroundImage: `url(${product.src})`,
                     width: '300px',

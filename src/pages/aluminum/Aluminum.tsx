@@ -19,14 +19,15 @@ export default function Example() {
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl text-center p-6">อลูมิเนียม</h2>
         <div className="line" style={{margin:"5px auto"}}></div>
-        <div className="mt-6 md:grid md:gap-6 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-4 mb-12">
+        <div className="mt-6 md:grid md:gap-6 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-4 mb-12"
+        >
           {aluminumProducts.map((product) => (
             <Link key={product.id} href={`/aluminum/${product.id}`}>
               
-              <div style={{ boxShadow: '0px 1.2px 3px 0.9px rgba(0, 0, 0, 0.27)', borderRadius: "10px" }}
-                className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg  xl:aspect-h-8 xl:aspect-w-7">
+              <div 
+                className="card-po aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg  xl:aspect-h-8 xl:aspect-w-7">
                 <div
-                  className="w-full h-full bg-center bg-no-repeat bg-contain"
+                  className="w-full h-full bg-center bg-no-repeat bg-contain img-po"
                   style={{
                     backgroundImage: `url(${product.src})`,
                     width: '300px',
