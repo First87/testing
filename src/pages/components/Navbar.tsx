@@ -21,7 +21,7 @@ export default function Navbar() {
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 {" "}
                 {/* Create a flex container for the logo and menu items */}
-                <Link href="#">
+                <Link href="/">
                   <p className=" logo-text">
                     บริษัท เสริมศิริ อลูมินั่ม & สแตนเลส จำกัด
                   </p>
