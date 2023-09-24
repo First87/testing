@@ -8,7 +8,7 @@ import Head from 'next/head';
 const callouts = [
     {
       name: 'อลูมิเนียม',
-      imageSrc: 'https://drive.google.com/uc?export=download&id=1MDWAhkubEf6XtzAAJRRM68UZyeclX30Y',
+      imageSrc: 'https://drive.google.com/uc?export=download&id=1VQXMZBx00pj3Z01YzlTdbj2XYjrwYQA2',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: '/aluminum/products',
     },
@@ -21,7 +21,7 @@ const callouts = [
     {
       name: 'กระจก',
      
-      imageSrc: 'https://drive.google.com/uc?export=download&id=1V7jwpoctuf3vHSODouHslLp03rg_WwKW',
+      imageSrc: 'https://drive.google.com/uc?export=download&id=17qo7rkvdzQiNgF-yMw-Kku7OI51boAT4',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '/mirror/products',
     },

@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="w-full bg-gray-800 shadow">
+      <nav className="w-full bg-gray-800 shadow ">
         {" "}
         {/* Create a navigation bar with background color and shadow */}
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
