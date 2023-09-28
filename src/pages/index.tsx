@@ -22,7 +22,7 @@ export default function Home({}: Props) {
     </Head>
    
       <Header />
-      <Banner />
+{/*       <Banner /> */}
       <MainContent />
       <MainSlide/>
       <br /><br />
