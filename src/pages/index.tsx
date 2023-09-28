@@ -1,9 +1,9 @@
 import React from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
-// import Banner from './components/Banner';
+import Banner from './components/Banner';
 import MainContent from './components/MainContent';
-import  MainSlide from './components/MainSlide';
+// import  MainSlide from './components/MainSlide';
 import Head from 'next/head';
 
 
@@ -22,9 +22,9 @@ export default function Home({}: Props) {
     </Head>
    
       <Header />
-{/*       <Banner /> */}
+      <Banner />
       <MainContent />
-      <MainSlide/>
+{/*       <MainSlide/> */}
       <br /><br />
       
       <Footer />
