@@ -1,9 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    domains: ['drive.google.com', 'tailwindui.com'], // ใส่โดเมนที่คุณต้องการใช้ในรูปภาพทั้งหมดในนี้
-  },
+    reactStrictMode: true,
+    i18n,
+    sassOptions: {
+        includePaths: [path.join(__dirname, 'src/styles')],
+        prependData: `@import "variables.scss";`,
+    },
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: '**',
+                port: '',
+                pathname: '**',
+            },
+        ],
+    },
 }
-
-module.exports = nextConfig
