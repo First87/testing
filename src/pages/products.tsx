@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import Header from "./components/Header"
+// import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Head from 'next/head';
 
@@ -55,7 +55,7 @@ export default function products() {
         type = "icon">
     </link>
     </Head>
-    <Header />
+    {/* <Header /> */}
     
     <div className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
